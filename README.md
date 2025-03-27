@@ -89,7 +89,7 @@ src/
 
 ## 📜 License
 GNU General Public License v3.0  
-Copyright © 2023 [Your Name]
+Copyright © 2025 [LIJINGYI]
 
 ## 🤝 Contributing
 1. Fork the Project
