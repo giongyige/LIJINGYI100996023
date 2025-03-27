@@ -98,9 +98,9 @@ Copyright © 2025 [LIJINGYI]
 3. Submit a Pull Request
 
 ## 📧 Contact
-security@yourdomain.com  
+jingyi.li2@ontariotechu.net
 PGP Fingerprint: `AAAA BBBB CCCC DDDD`
-```
+
 
 Key features of this README:
 
@@ -111,9 +111,3 @@ Key features of this README:
 5. **Professional Tone** - Suitable for enterprise use
 6. **Contributing Guide** - Encourages collaboration
 7. **Contact Info** - With PGP security
-
-Would you like me to add:
-- Screenshots of the CLI interface?
-- Detailed benchmark results?
-- Comparison with other password managers?
-- Badges for CI/CD pipelines?
