@@ -1,5 +1,8 @@
 # LIJINGYI100996023
 Personalized Password Generator ——prgm. Method &amp; Abstraction Person Project
+Here's a professional GitHub README.md in English following best practices:
+
+```markdown
 # 🔐 SecurePass - Password Manager
 
 ![C++17](https://img.shields.io/badge/C++-17-blue.svg)
@@ -16,16 +19,17 @@ A secure command-line password manager with military-grade encryption and intuit
 - **Password Generator** 
   ```bash
   Input:  "github" → Output: "g!th8b$2*K"
+  ```
+- **Cross-Platform** - Linux/macOS/Windows (WSL2)
 
-  🚀 Installation
-Prerequisites
-OpenSSL 3.0+
+## 🚀 Installation
 
-C++17 compiler
+### Prerequisites
+- OpenSSL 3.0+
+- C++17 compiler
 
-Build from Source
-bash
- 
+### Build from Source
+```bash
 # Clone with submodules
 git clone --recursive https://github.com/yourusername/securepass.git
 cd securepass
@@ -37,28 +41,34 @@ make -j4
 
 # Install system-wide
 sudo make install
-🖥️ Usage
-First Run
-bash
- 
+```
+
+## 🖥️ Usage
+
+### First Run
+```bash
 ./securepass init
 ✔ Enter new master password: **********
 ✔ Vault initialized successfully!
-Store a Password
-bash
- 
+```
+
+### Store a Password
+```bash
 ./securepass add github
 ✔ Generated password: Yg7$k!9qLp2
 ✔ Password stored securely
-Retrieve Password
-bash
- 
+```
+
+### Retrieve Password
+```bash
 ./securepass get github
 ✔ Master password: **********
 ✔ Password: Yg7$k!9qLp2
-🛡️ Security Architecture
-mermaid
- 
+```
+
+## 🛡️ Security Architecture
+
+```mermaid
 sequenceDiagram
     User->>+SecurePass: Enter Master Password
     SecurePass->>+OpenSSL: PBKDF2(SHA3-512)
@@ -66,29 +76,30 @@ sequenceDiagram
     SecurePass->>+AES: Decrypt Vault
     AES-->>-SecurePass: Plaintext Data
     SecurePass->>User: Access Granted
-📂 File Structure
+```
 
+## 📂 File Structure
+```
 src/
 ├── crypto/      # Encryption modules
 ├── ui/          # User interface
 ├── vault/       # Password storage
 └── tests/       # Unit tests
-📜 License
-GNU General Public License v3.0
+```
+
+## 📜 License
+GNU General Public License v3.0  
 Copyright © 2023 [Your Name]
 
-🤝 Contributing
-Fork the Project
+## 🤝 Contributing
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Submit a Pull Request
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Submit a Pull Request
-
-📧 Contact
-security@yourdomain.com
-PGP Fingerprint: AAAA BBBB CCCC DDDD
-
- 
+## 📧 Contact
+security@yourdomain.com  
+PGP Fingerprint: `AAAA BBBB CCCC DDDD`
+```
 
 Key features of this README:
 
