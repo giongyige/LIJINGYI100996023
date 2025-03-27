@@ -25,7 +25,7 @@ C++17 compiler
 
 Build from Source
 bash
-复制
+ 
 # Clone with submodules
 git clone --recursive https://github.com/yourusername/securepass.git
 cd securepass
@@ -40,25 +40,25 @@ sudo make install
 🖥️ Usage
 First Run
 bash
-复制
+ 
 ./securepass init
 ✔ Enter new master password: **********
 ✔ Vault initialized successfully!
 Store a Password
 bash
-复制
+ 
 ./securepass add github
 ✔ Generated password: Yg7$k!9qLp2
 ✔ Password stored securely
 Retrieve Password
 bash
-复制
+ 
 ./securepass get github
 ✔ Master password: **********
 ✔ Password: Yg7$k!9qLp2
 🛡️ Security Architecture
 mermaid
-复制
+ 
 sequenceDiagram
     User->>+SecurePass: Enter Master Password
     SecurePass->>+OpenSSL: PBKDF2(SHA3-512)
@@ -67,7 +67,7 @@ sequenceDiagram
     AES-->>-SecurePass: Plaintext Data
     SecurePass->>User: Access Granted
 📂 File Structure
-复制
+
 src/
 ├── crypto/      # Encryption modules
 ├── ui/          # User interface
@@ -88,7 +88,7 @@ Submit a Pull Request
 security@yourdomain.com
 PGP Fingerprint: AAAA BBBB CCCC DDDD
 
-复制
+ 
 
 Key features of this README:
 
